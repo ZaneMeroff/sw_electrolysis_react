@@ -35,11 +35,16 @@
   width: 70%;
 }
 
-.about-text {
+.about-text,
+.bio-text {
   color: #FFF;
   font-family: 'Muli';
   letter-spacing: 0.7px;
   line-height: 180%;
+}
+
+.bio-text {
+  margin-bottom: 30px;
 }
 
 .email-text {
@@ -47,10 +52,12 @@
 }
 
 .contact-info-container {
+  display: flex;
   margin-top: 5%;
+  width: 100%;
 }
 
-.resume-button {
+/* .resume-button {
   background-color: #383838;
   border: 2px solid #a72db9;
   border-radius: 26px;
@@ -60,13 +67,13 @@
   margin-top: 5%;
   padding: 0px 20px;
   width: auto;
-}
+} */
 
-.resume-button:hover {
+/* .resume-button:hover {
   background-color: #a72db9;
   color: #FFF;
   cursor: pointer;
-}
+} */
 
 .tech-skills-link {
   font-family: 'Muli';

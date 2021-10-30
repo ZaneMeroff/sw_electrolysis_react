@@ -1,5 +1,6 @@
 .nav-buttons {
-  background-color: #752082;
+  /* background-color: #752082; */
+  background-color: #fa79df;
   border: none;
   color: #FFF;
   font-size: 70%;
@@ -12,12 +13,13 @@
 }
 
 .nav-buttons:hover {
-  background-color: #a72db9;
+  background-color: #fc95e7;
   cursor: pointer;
 }
 
 .full-nav-container {
-  background-color: #752082;
+  /* background-color: #752082; */
+  background-color: #fa79df;
   box-shadow: 0px 5px 13px 0px #000;
   display: flex;
   height: 35px;
@@ -30,7 +32,7 @@
 .hamburger-button,
 .hamburger-button-active {
   background: center/100% url(../../images/triangle_purple.png);
-  border: 2px solid #a72db9;
+  border: 2px solid #fc95e7;
   height: 50px;
   position: fixed;
   width: 50px;
@@ -57,7 +59,8 @@
 }
 
 .mobile-menu {
-  background-color: #752082;
+  /* background-color: #752082; */
+  background-color: #fa79df;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 5px 5px 13px 2px #000;

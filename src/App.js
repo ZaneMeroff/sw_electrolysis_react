@@ -22,8 +22,8 @@ const App = () => {
       <Nav />
       <Header />
       <About />
-      <SimonGame />
-      <WorkExperience />
+      {/* <SimonGame /> */}
+      {/* <WorkExperience /> */}
       <Projects />
       <Contact />
     </section>
