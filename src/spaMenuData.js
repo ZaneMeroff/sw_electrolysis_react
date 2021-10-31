@@ -1,10 +1,4 @@
-export const resumeData = {
-  resumeURL: "https://zanemeroff.github.io/resume_host",
-  turingAlumniURL: "https://alumni.turing.io/alumni/zachary-nemeroff",
-  gitHubURL: "https://github.com/ZaneMeroff",
-  twitterURL: "https://twitter.com/zanemeroff",
-  linkedInURL: "https://www.linkedin.com/in/zachary-nemeroff",
-  bioDescription: "My name is Zachary Nemeroff, and I'm an enthusiastic JavaScript developer passionate about test driven development and object-oriented programming using agile workflow processes. I love to build responsive and accessible apps using REST APIs with modern tools including JavaScript, TypeScript, Vue.js, React, HTML5, CSS3, and jQuery to name a few (<skillsLink>). I'm constantly seeking opportunities calling for creative solutions, so I may expand my knowledge and grow technical skills outside of my comfort zone. If you're up for a challenge, try the Mr. Simon game I created below!",
+export const spaMenuData = {
   education: {
     school: "Turing School of Software & Design",
     position: "Graduate Front End Web Development Program",

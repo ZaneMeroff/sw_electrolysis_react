@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.resume-button-footer {
+/* .resume-button-footer {
   background-color: #383838;
   border: 2px solid #a72db9;
   border-radius: 26px;
@@ -33,13 +33,13 @@
   height: 50px;
   margin-top: 50px;
   width: 150px;
-}
+} */
 
-.resume-button-footer:hover {
+/* .resume-button-footer:hover {
   background-color: #a72db9;
   color: #FFF;
   cursor: pointer;
-}
+} */
 
 .social-icons-container {
   margin-top: 50px;
@@ -48,7 +48,7 @@
 }
 
 .about-text-title {
-  color: #fa79df
+  color: #fc9be8
 }
 
 @media only screen and (max-width: 1000px) {

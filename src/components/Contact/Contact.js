@@ -1,8 +1,4 @@
 import React, { useEffect } from 'react';
-import gitHubIcon from '../../images/github_icon.png';
-import twitterIcon from '../../images/twitter_icon.png';
-import linkedInIcon from '../../images/linkedin_icon.png';
-import { resumeData } from '../../resumeData';
 import './Contact.css';
 
 export const Contact = () => {
@@ -19,7 +15,7 @@ export const Contact = () => {
       <div className="contact-clip-path-top"></div>
       <section id='contact-section' className='contact-outer-container'>
         
-        <i className='contact-message'>Gift Certificates are available anytime at any amount!</i>
+        <i className='contact-message'>Gift certificates are available anytime at any amount!</i>
         
         <h2 className='about-text about-text-title'>SW Electrolysis & Spa</h2>
         <p className='about-text'>4646 W Jefferson Blvd</p>

@@ -1,7 +1,7 @@
 .header-outer-container {
   align-items: center;
   /* background: center/100% url(../../images/orchid_blackwhite_bg.jpeg); */
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../../images/orchid_blackwhite_bg.jpeg');
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../images/orchid_blackwhite_bg.jpeg');
   background-color: #000;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +19,7 @@
   font-size: 500%;
   font-weight: lighter;
   margin: 0px 15px 0px 15px;
+  text-shadow: 1px 1px 1px #000;
   position: relative;
   padding: 0px;
 }
@@ -26,7 +27,9 @@
 .title-industry {
   color: #FFF;
   font-family: 'Muli';
-  font-size: 110%;
+  /* font-family: 'Sacramento', cursive; */
+  font-size: 150%;
+  text-shadow: 1px 1px 1px #000;
   position: relative;
 }
 

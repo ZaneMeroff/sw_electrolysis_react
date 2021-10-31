@@ -1,8 +1,10 @@
 import React from 'react';
-import { resumeData } from '../../resumeData';
-import './WorkExperience.css';
+import { spaMenuData } from '../../spaMenuData';
+import './SpaMenu.css';
 
-export const WorkExperience = () => {
+export const SpaMenu = () => {
+
+  const menu = spaMenuData
 
   const buildExperienceHeading = title => {
     return (
@@ -19,7 +21,7 @@ export const WorkExperience = () => {
       <div className='experience-container'>
         { buildExperienceHeading('Experience') }
         <div className='experience-right-container'>
-          {resumeData.jobs.map(job => {
+          {menu.jobs.map(job => {
             return (
               <div key={job.name} className='job-container'>
                 <p className='experience-title'>{job.name}</p>
@@ -35,17 +37,17 @@ export const WorkExperience = () => {
       <div className='tech-experience-container' id="skills-section">
         { buildExperienceHeading('Tech Skills') }
         <div className='tech-skills-container'>
-          <ul className='tech-skills-bullets'>{resumeData.techSkillz.map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
+          <ul className='tech-skills-bullets'>{menu.techSkillz.map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
         </div>
       </div>
       <div className='experience-container'>
         { buildExperienceHeading('Education') }
         <div className='experience-right-container'>
-          <h3 className='experience-title'>{resumeData.education.school}</h3>
-          <i className='experience-position'>{resumeData.education.position}</i>
-          <i className='experience-time'>{resumeData.education.time}</i>
+          <h3 className='experience-title'>{menu.education.school}</h3>
+          <i className='experience-position'>{menu.education.position}</i>
+          <i className='experience-time'>{menu.education.time}</i>
           <ul className='description-list'>
-            {resumeData.education.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
+            {menu.education.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
           </ul>
         </div>
       </div>
