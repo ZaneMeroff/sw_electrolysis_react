@@ -1,8 +1,7 @@
 .nav-buttons {
-  /* background-color: #752082; */
-  background-color: #fa79df;
+  background-color: #fc9be8;
   border: none;
-  color: #FFF;
+  color: #000;
   font-size: 70%;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -13,13 +12,12 @@
 }
 
 .nav-buttons:hover {
-  background-color: #fc95e7;
+  color: #FFF;
   cursor: pointer;
 }
 
 .full-nav-container {
-  /* background-color: #752082; */
-  background-color: #fa79df;
+  background-color: #fc9be8;
   box-shadow: 0px 5px 13px 0px #000;
   display: flex;
   height: 35px;
@@ -59,8 +57,7 @@
 }
 
 .mobile-menu {
-  /* background-color: #752082; */
-  background-color: #fa79df;
+  background-color: #fc9be8;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 5px 5px 13px 2px #000;

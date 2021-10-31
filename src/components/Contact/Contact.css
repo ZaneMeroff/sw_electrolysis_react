@@ -5,7 +5,7 @@
   flex-direction: column;
   height: auto;
   margin-top: -1px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@
   text-align: center;
 }
 
-.resume-button-footer {
+/* .resume-button-footer {
   background-color: #383838;
   border: 2px solid #a72db9;
   border-radius: 26px;
@@ -33,22 +33,18 @@
   height: 50px;
   margin-top: 50px;
   width: 150px;
-}
+} */
 
-.resume-button-footer:hover {
+/* .resume-button-footer:hover {
   background-color: #a72db9;
   color: #FFF;
   cursor: pointer;
-}
+} */
 
 .social-icons-container {
   margin-top: 50px;
   text-align: center;
   width: 100%;
-}
-
-.about-text-title {
-  color: #fa79df
 }
 
 @media only screen and (max-width: 1000px) {
