@@ -17,11 +17,15 @@ export const Contact = () => {
         
         <i className='contact-message'>Gift certificates are available anytime at any amount!</i>
         
-        <h2 className='about-text about-text-title'>SW Electrolysis & Spa</h2>
+        <h2 className='about-text' style={{ color: '#fc9be8' }}>SW Electrolysis & Spa</h2>
+        
         <p className='about-text'>4646 W Jefferson Blvd</p>
         <p className='about-text'>Fort Wayne, IN 46804</p>
-        <p className='about-text'>260.387.5040</p>
+        <a href="tel:2603875040" style={{ textDecorationColor: '#FFF' }}><p className='about-text'>260.387.5040</p></a>
+       
         <a rel='noopener noreferrer' aria-label='send email' href='mailto: swelectrolysis@gmail.com ' target='_blank'><p className='about-text email-text'>SWelectrolysis@gmail.com </p></a>
+
+        <p className='about-text' style={{ marginTop: '60px', fontSize: '12px' }}>&#xA9; 2022 SW Electrolysis & Spa</p>
 
         {/* <div className='social-icons-container'>
           <a rel='noopener noreferrer' aria-label='github profile' href={resumeData.gitHubURL} target='_blank'><img alt='Github icon' src={gitHubIcon} className='social-icon icon'/></a>
@@ -31,5 +35,4 @@ export const Contact = () => {
       </section>
     </div>
   );
-
 }

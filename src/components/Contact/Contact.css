@@ -5,7 +5,7 @@
   flex-direction: column;
   height: auto;
   margin-top: -1px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   width: 100%;
 }
 
@@ -45,10 +45,6 @@
   margin-top: 50px;
   text-align: center;
   width: 100%;
-}
-
-.about-text-title {
-  color: #fc9be8
 }
 
 @media only screen and (max-width: 1000px) {
