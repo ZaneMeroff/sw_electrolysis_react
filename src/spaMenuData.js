@@ -9,7 +9,7 @@ export const spaMenuData = {
   'Skincare': [
     { 
       name: 'Microdermabrasion', 
-      desc: 'The face is sprayed with exfoliant crystals to remove dead epidermal cells.', 
+      desc: 'Exfoliant crystals are used to remove dead epidermal cells.', 
       price: 90,
       pkgPrice: '$225 (3x)'
     },
@@ -18,6 +18,5 @@ export const spaMenuData = {
       desc: 'Microneedling is a dermaroller procedure that uses small needles to prick the skin.', 
       price: 200 
     },
-
   ],
 }
