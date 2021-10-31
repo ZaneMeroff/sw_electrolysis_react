@@ -51,11 +51,11 @@
 }
 
 .menu-item-price {
-  font-weight: lighter;
+  /* font-weight: lighter; */
 }
 
 .menu-item-pkg-price {
-  font-weight: lighter;
+  /* font-weight: lighter; */
   vertical-align: top;
 }
 
