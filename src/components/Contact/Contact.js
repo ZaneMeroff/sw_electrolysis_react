@@ -15,7 +15,7 @@ export const Contact = () => {
       <div className='contact-clip-path-top'></div>
       <section id='contact-section' className='contact-outer-container'>
         
-        <i className='contact-message'>Gift certificates are available anytime at any amount!</i>
+        <i className='contact-message'>Gift certificates available!</i>
         
         <h2 className='about-text' style={{ color: '#fc9be8' }}>SW Electrolysis & Spa</h2>
         
