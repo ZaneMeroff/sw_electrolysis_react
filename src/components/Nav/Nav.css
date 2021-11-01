@@ -29,8 +29,8 @@
 
 .hamburger-button,
 .hamburger-button-active {
-  background: center/100% url(../../images/triangle_purple.png);
-  border: 2px solid #fc95e7;
+  background: center/100% url(../../images/leaf_pink.png);
+  border: 2px solid #ff62ea;
   height: 50px;
   position: fixed;
   width: 50px;
@@ -42,7 +42,7 @@
 }
 
 .hamburger-button-active {
-  background: center/100% url(../../images/triangle_white.png);
+  background: center/100% url(../../images/leaf_white.png);
   transform: rotate(180deg);
   animation: turnRight 0.9s 1;
 }
@@ -53,7 +53,6 @@
 
 .mobile-nav-container {
   display: none;
-  position: absolute;
 }
 
 .mobile-menu {
@@ -127,6 +126,8 @@
 
   .mobile-nav-container {
     display: block;
+    overflow: hidden;
+    position: absolute;
   }
 
   .full-nav-container {
