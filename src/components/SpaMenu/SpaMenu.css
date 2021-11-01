@@ -22,8 +22,7 @@
 
 .heading-border {
   border-bottom: 3px solid #fc9be8;
-  margin-left: 25%;
-  margin-bottom: -6px;
+  margin: 0px 0px -6px 25%;
   width: auto;
 }
 
