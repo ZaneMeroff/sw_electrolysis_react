@@ -6,46 +6,118 @@ export const spaMenuData = {
     { name: '90 min', price: 135 },
     { name: '120 min', price: 165 },
   ],
-  'Skincare': [
+  'Treatments': [
     { 
       name: 'Microdermabrasion', 
-      desc: 'Exfoliant crystals are used to remove dead epidermal cells.', 
-      price: 90,
-      pkg3xPrice: 225
+      desc: 'Creates micro abrasions over the skin to trigger immediate new skin growth.', 
+      price: 80,
+      pkg3xPrice: 200
     },
     { 
       name: 'Microneedling', 
-      desc: 'Microneedling is a dermaroller procedure that uses small needles to prick the skin.', 
+      desc: 'Micro needles are used to thicken collagen for a younger-looking complexion.', 
       price: 200,
       pkg3xPrice: 550 
     },
     { 
       name: 'Dermaplaning Face', 
       desc: 'Exfoliate the epidermis by ridding the skin of fine vellus hair.', 
-      price: 35 
+      price: 50 
     },
   ],
-  'Peels & Lifts': [
+  'Lifts/Peels': [
     { 
       name: 'O2 Lift', 
       desc: 'Luxurious oxygen treatment infuses plant-derived stem cells, peptides, and botanicas into the skin.', 
       price: 90,
-      pkg3xPrice: 248,
-      pkg6xPrice: 495
+      pkg3xPrice: 225,
+      pkg6xPrice: 450
+    },
+    { 
+      name: 'Ormedic Lift', 
+      desc: 'Rebalances and regenerates skin using an organic blend of fruit enzymes.', 
+      price: 85,
+      pkg3xPrice: 212,
+      pkg6xPrice: 425
     },
     { 
       name: 'Vital C Lift', 
       desc: 'Vitamin C enzymes speed up cell turnover. See results after one session.', 
       price: 75,
-      pkg3xPrice: 188,
+      pkg3xPrice: 187,
       pkg6xPrice: 375
     },
     { 
-      name: 'Anti-Aging Lift', 
-      desc: 'A customized peel starting with a retinol, lactic, or salicylic base then adding medical grade enhancers.', 
-      price: 85,
-      pkg3xPrice: 213,
-      pkg6xPrice: 425
+      name: 'Lightening Lift', 
+      desc: 'Combines botanical brighteners to leave the skin younger looking and luminous.', 
+      price: 75,
+      pkg3xPrice: 187,
+      pkg6xPrice: 375
+    },
+    { 
+      name: 'Wrinkle Lift', 
+      desc: 'For more advanced signs of aging, targets deeper wrinkles and improves skin elasticity.', 
+      price: 75,
+      pkg3xPrice: 187,
+      pkg6xPrice: 375
+    },
+    { 
+      name: 'Acne Lift', 
+      desc: 'Reduces blemishes, redness, and post-breakout dark spots. Treats and heals acne.', 
+      price: 75,
+      pkg3xPrice: 187,
+      pkg6xPrice: 375
+    },
+    { 
+      name: 'Beta Lift', 
+      desc: 'Treats advanced aging pigmentation and acne using a blend of exfoliating agents.', 
+      price: 75,
+      pkg3xPrice: 187,
+      pkg6xPrice: 375
+    },
+    { 
+      name: 'Perfection Lift', 
+      desc: 'An extra strength treatment to rejuvenate and repair advanced signs of aging.', 
+      price: 90,
+      pkg3xPrice: 225,
+      pkg6xPrice: 450
     },
   ],
+  'Facials': [
+    { 
+      name: 'Illuminating Facial', 
+      desc: 'Diminishes dark spots using lightening agents creating a glowing, even tone.', 
+      price: 90,
+      pkg3xPrice: 225,
+      pkg6xPrice: 450
+    },
+    { 
+      name: 'Hydrating Facial', 
+      desc: 'A pampering facial that targets dry, dehydrated skin.', 
+      price: 85,
+      pkg3xPrice: 212,
+      pkg6xPrice: 425
+    },
+    { 
+      name: 'Stem Cell Facial', 
+      desc: 'Plant-derived stem cells work to treat fine lines and wrinkles.', 
+      price: 95,
+      pkg3xPrice: 237,
+      pkg6xPrice: 475
+    },
+    { 
+      name: 'Back Facial', 
+      desc: 'A powerful anti-inflammatory botanical treatment for back acne.', 
+      price: 100,
+      pkg3xPrice: 250,
+      pkg6xPrice: 500
+    },
+    { 
+      name: 'Neck & Decolletage', 
+      desc: 'Erases wrinkles and dark spots while tightening loose skin.', 
+      price: 85,
+      pkg3xPrice: 212,
+      pkg6xPrice: 425
+    },
+  ]
 }
