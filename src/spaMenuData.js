@@ -11,12 +11,13 @@ export const spaMenuData = {
       name: 'Microdermabrasion', 
       desc: 'Exfoliant crystals are used to remove dead epidermal cells.', 
       price: 90,
-      pkgPrice: '$225 (3x)'
+      pkg3xPrice: 225
     },
     { 
       name: 'Microneedling', 
       desc: 'Microneedling is a dermaroller procedure that uses small needles to prick the skin.', 
-      price: 200 
+      price: 200,
+      pkg3xPrice: 550 
     },
     { 
       name: 'Dermaplaning Face', 
@@ -27,21 +28,24 @@ export const spaMenuData = {
   'Peels & Lifts': [
     { 
       name: 'O2 Lift', 
-      desc: 'Luxurious oxygen treatment infuses plan-derived stem cells, peptides, and botanicas into the skin.', 
+      desc: 'Luxurious oxygen treatment infuses plant-derived stem cells, peptides, and botanicas into the skin.', 
       price: 90,
-      pkgPrice: '$248 (3x)'
+      pkg3xPrice: 248,
+      pkg6xPrice: 495
     },
     { 
       name: 'Vital C Lift', 
       desc: 'Vitamin C enzymes speed up cell turnover. See results after one session.', 
       price: 75,
-      pkgPrice: '$188 (3x)'
+      pkg3xPrice: 188,
+      pkg6xPrice: 375
     },
     { 
       name: 'Anti-Aging Lift', 
       desc: 'A customized peel starting with a retinol, lactic, or salicylic base then adding medical grade enhancers.', 
       price: 85,
-      pkgPrice: '$213 (3x)'
+      pkg3xPrice: 213,
+      pkg6xPrice: 425
     },
   ],
 }

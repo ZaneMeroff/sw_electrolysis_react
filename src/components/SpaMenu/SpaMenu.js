@@ -27,18 +27,17 @@ export const SpaMenu = () => {
                 {
                   menu[section].map((item, index) => {
                     return (
-                      <table key={index} className='menu-item-container'>
-                        <tbody>
-                          <tr>
-                            <td className='menu-item-title'>{item.name}</td>
-                            <td className='menu-item-price'><i>${item.price}</i></td>
-                          </tr>
-                          <tr>
-                            <td className='menu-item-desc'>{item.desc}</td>
-                            <td className='menu-item-pkg-price'><i>{ item.pkgPrice }</i></td>
-                          </tr>
-                        </tbody>
-                      </table>
+                      <div key={index} className='menu-item-container' style={{ display: 'flex', height: 'auto' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', width: '100%'}}>
+                          <div className='menu-item-title'>{item.name}</div>
+                          <div className='menu-item-desc'>{item.desc}</div>
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '10px' }}>
+                          <div className='menu-item-price'><i>${item.price}</i></div>
+                          {item.pkg3xPrice && <div className='menu-item-price'><i>${ item.pkg3xPrice } (3x)</i></div>}
+                          {item.pkg6xPrice && <div className='menu-item-price'><i>${ item.pkg6xPrice } (6x)</i></div>}
+                        </div>
+                      </div>
                     )
                   })
                 }
