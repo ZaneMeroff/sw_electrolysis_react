@@ -9,7 +9,7 @@ export const spaMenuData = {
   'Treatments': [
     { 
       name: 'Microdermabrasion', 
-      desc: 'Creates micro abrasions over the skin to trigger immediate new skin growth.', 
+      desc: 'Creates micro abrasions on the skin to trigger new skin growth.', 
       price: 80,
       pkg3xPrice: 200
     },
@@ -20,12 +20,12 @@ export const spaMenuData = {
       pkg3xPrice: 550 
     },
     { 
-      name: 'Dermaplaning Face', 
-      desc: 'Exfoliate the epidermis by ridding the skin of fine vellus hair.', 
+      name: 'Dermaplaning', 
+      desc: 'Exfoliates the epidermis by ridding the skin of fine vellus hair.', 
       price: 50 
     },
   ],
-  'Lifts/Peels': [
+  'Lifts': [
     { 
       name: 'O2 Lift', 
       desc: 'Luxurious oxygen treatment infuses plant-derived stem cells, peptides, and botanicas into the skin.', 
