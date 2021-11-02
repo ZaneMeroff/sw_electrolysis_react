@@ -44,7 +44,6 @@
 .menu-item-title {
   font-size: 130%;
   padding-bottom: 4px;
-  width: 400px;
 }
 
 .menu-item-desc {
@@ -78,10 +77,6 @@ table, tr, td {
     width: 100%;
   }
 
-  .menu-outer-container {
-    padding-top: 40px;
-  }
-
   .menu-section-wrapper {
     align-items: center;
     flex-direction: column;
@@ -96,14 +91,11 @@ table, tr, td {
 
   .menu-item-title {
     font-size: 120%;
-    width: 100%;
   }
 
   .heading-border {
     margin: 0px 0px -6px 0px;
   }
 }
-
-
 
 
