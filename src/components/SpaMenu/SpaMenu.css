@@ -43,6 +43,7 @@
 
 .menu-item-title {
   font-size: 130%;
+  padding-bottom: 4px;
   width: 400px;
 }
 
@@ -52,10 +53,7 @@
 
 .menu-item-price {
   min-width: 70px;
-}
-
-.menu-item-pkg-price {
-  vertical-align: top;
+  padding-bottom: 4px;
 }
 
 table, tr, td {

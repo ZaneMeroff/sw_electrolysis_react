@@ -29,19 +29,22 @@ export const spaMenuData = {
       name: 'O2 Lift', 
       desc: 'Luxurious oxygen treatment infuses plan-derived stem cells, peptides, and botanicas into the skin.', 
       price: 90,
-      pkgPrice: '$248 (3x)'
+      pkg1Price: '$248 (3x)',
+      pkg2Price: '$495 (6x)'
     },
     { 
       name: 'Vital C Lift', 
       desc: 'Vitamin C enzymes speed up cell turnover. See results after one session.', 
       price: 75,
-      pkgPrice: '$188 (3x)'
+      pkg1Price: '$188 (3x)',
+      pkg2Price: '$375 (6x)'
     },
     { 
       name: 'Anti-Aging Lift', 
       desc: 'A customized peel starting with a retinol, lactic, or salicylic base then adding medical grade enhancers.', 
       price: 85,
-      pkgPrice: '$213 (3x)'
+      pkg1Price: '$213 (3x)',
+      pkg2Price: '$425 (6x)'
     },
   ],
 }
