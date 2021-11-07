@@ -9,13 +9,13 @@ export const spaMenuData = {
   'Treatments': [
     { 
       name: 'Microdermabrasion', 
-      desc: 'Creates micro abrasions on the skin to trigger new skin growth.', 
+      desc: 'A skin smoothing treatment that gently polishes and exfoliates.', 
       price: 80,
       pkg3xPrice: 200
     },
     { 
       name: 'Microneedling', 
-      desc: 'Micro needles are used to thicken collagen for a younger-looking complexion.', 
+      desc: 'Collagen induction therapy helps reduce fine lines and wrinkles, evens skin tone, and tightens sagging skin.', 
       price: 200,
       pkg3xPrice: 550 
     },
