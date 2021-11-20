@@ -96,24 +96,30 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 
   .about-outer-container {
+    flex-direction: column;
     height: auto;
     padding-bottom: 50px;
   }
 
   .profile-pic-container {
-    display: none;
+    width: 100%;
+  }
+
+  .profile-pic {
+    margin: 5% 0%;
   }
 
   .about-info-container {
-    padding-left: 50px;
+    padding: 0% 10%;
+    width: auto;
   }
 
-  .resume-button {
+  /* .resume-button {
     margin-top: 8%;
-  }
+  } */
 
 }
 
@@ -122,6 +128,16 @@
   .about-clip-path-top {
     height: 74px;
     margin-top: -74px;
+  }
+
+  .profile-pic-container {
+    margin-bottom: 20px;
+  }
+
+  .profile-pic {
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
   }
 
 }
