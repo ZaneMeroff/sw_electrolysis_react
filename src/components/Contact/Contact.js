@@ -28,7 +28,7 @@ export const Contact = () => {
         <h2 className='about-text' id='hours-section' style={{ color: '#fc9be8', marginTop: '40px' }}>Hours</h2>
         <p className='about-text'>Mon-Fri 9am-5pm</p>
         <p className='about-text' style={{ textAlign: 'center', width: '220px'}}>*weekend & after-hour appointments by request</p>
-        <p className='about-text' style={{ marginTop: '60px', fontSize: '12px' }}>&#xA9; 2021 SW Electrolysis & Spa</p>
+        <p className='about-text' style={{ marginTop: '60px', fontSize: '12px' }}>&#xA9; 2022 SW Electrolysis & Spa</p>
         {/* <div className='social-icons-container'>
           <a rel='noopener noreferrer' aria-label='github profile' href={resumeData.gitHubURL} target='_blank'><img alt='Github icon' src={gitHubIcon} className='social-icon icon'/></a>
           <a rel='noopener noreferrer' aria-label='linkedin profile' href={resumeData.linkedInURL} target='_blank'><img alt='Linkedin icon' src={linkedInIcon} className='social-icon icon'/></a>
