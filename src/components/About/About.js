@@ -14,7 +14,6 @@ export const About = () => {
           <p className='bio-text'>Call today to schedule an appointment and get a free skincare and/or electrolysis consultation!</p>
           <a href="tel:2603875040" aria-label='phone number' style={{ textDecorationColor: '#FFF' }}><p className='about-text'>260.387.5040</p></a>
           <a rel='noopener noreferrer' aria-label='send email' href='mailto: swelectrolysis@gmail.com ' target='_blank'><p className='about-text email-text'>SWelectrolysis@gmail.com </p></a>
-          {/* <a rel='noopener noreferrer' href={resumeData.resumeURL} target='_blank'><button tabIndex='-1' aria-label='view resume as PDF' className='resume-button'>resume.pdf</button></a> */}
         </div>
       </section>
     </div>
