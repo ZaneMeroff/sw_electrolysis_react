@@ -65,7 +65,7 @@
 @media only screen and (max-width: 950px) {
 
   .title-name {
-    font-size: 350%;
+    font-size: 400%;
   }
 
 }
@@ -92,6 +92,22 @@
 
   .down-arrow {
     margin-top: 110px;
+  }
+
+}
+
+@media only screen and (max-width: 510px) {
+
+  .title-name {
+    font-size: 510%;
+  }
+
+}
+
+@media only screen and (max-width: 330px) {
+
+  .title-name {
+    font-size: 400%;
   }
 
 }

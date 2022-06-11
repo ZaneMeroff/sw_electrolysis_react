@@ -18,7 +18,7 @@
 
 .full-nav-container {
   background-color: #b18eb6;
-  /* box-shadow: 0px 5px 13px 0px #636363; */
+  box-shadow: 0px 5px 13px 0px #636363;
   display: flex;
   height: 35px;
   justify-content: center;

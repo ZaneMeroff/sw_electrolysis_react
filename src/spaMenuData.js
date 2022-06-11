@@ -1,10 +1,8 @@
 export const spaMenuData = {
   'Electrolysis': [
-    { name: '15 min', price: 25 },
-    { name: '30 min', price: 50 },
-    { name: '60 min', price: 95 },
-    { name: '90 min', price: 135 },
-    { name: '120 min', price: 165 },
+    { name: '15 min', price: 35 },
+    { name: '30 min', price: 60 },
+    { name: '60 min', price: 110 }
   ],
   'Treatments': [
     { 
