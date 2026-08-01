@@ -1,5 +1,5 @@
 .about-outer-container {
-  background-color: #b18eb6;
+  background-color: #969f99;
   display: flex;
   flex-direction: row;
   height: auto;
@@ -9,7 +9,7 @@
 }
 
 .about-clip-path-top {
-  background-color: #b18eb6;
+  background-color: #969f99;
   clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
   height: 150px;
   margin-top: -150px;
