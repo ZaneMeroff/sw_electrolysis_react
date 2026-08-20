@@ -29,6 +29,16 @@
   text-shadow: 1px 1px 1px #000;
 }
 
+.lgbtq-icon-container {
+  display: flex;
+  margin-top: 3px;
+}
+
+.lgbtq-icon {
+  height: 30px;
+  margin-right: 5px;
+}
+
 /* .resume-button-footer {
   background-color: #383838;
   border: 2px solid #a72db9;

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import lgbtqIcon from '../../images/lgbtq_friendly_icon.png';
 import './Contact.css';
 
 export const Contact = () => {
@@ -24,6 +25,10 @@ export const Contact = () => {
         <p className='about-text'>Fort Wayne, IN 46804</p>
         <a href="tel:2603853199" style={{ textDecorationColor: '#FFF' }}><p className='about-text'>260.385.3199</p></a>
         <a rel='noopener noreferrer' aria-label='send email' href='mailto: swelectrolysis@gmail.com ' target='_blank'><p className='about-text email-text'>SWelectrolysis@gmail.com </p></a>
+        <div className='lgbtq-icon-container'>
+          <img alt="LGBTQ+ friendly icon" src={lgbtqIcon} className="lgbtq-icon" />
+          <p className='about-text'>LGBTQ+ friendly</p>
+        </div>
 
         <h2 className='about-text about-title-text' id='hours-section' style={{ marginTop: '40px' }}>Hours</h2>
         <p className='about-text'>Mon-Fri 9am-5pm</p>
