@@ -11,12 +11,12 @@
   width: 100%;
 }
 
-/* Rounded cap that overlaps the hero image */
+/* Diagonal that overlaps the bottom of the hero image */
 .about-clip-path-top {
   background-color: var(--sage-100);
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-  height: var(--radius-lg);
-  margin-top: calc(var(--radius-lg) * -1);
+  clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
+  height: var(--diagonal-height);
+  margin-top: calc(var(--diagonal-height) * -1);
   position: relative;
   width: 100%;
 }
@@ -127,10 +127,6 @@
 }
 
 @media only screen and (max-width: 500px) {
-
-  :root {
-    --radius-lg: 28px;
-  }
 
   .about-outer-container {
     padding: 40px 20px 80px 20px;

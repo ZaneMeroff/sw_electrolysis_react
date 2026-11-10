@@ -4,26 +4,27 @@
   display: flex;
   flex-direction: column;
   height: auto;
+  margin-top: -1px;
   padding: 40px 24px 32px 24px;
   text-align: center;
   width: 100%;
 }
 
-/* Rounded cap that overlaps the menu section */
+/* Diagonal that overlaps the bottom of the menu section */
 .contact-clip-path-top {
   background-color: var(--sage-900);
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-  height: var(--radius-lg);
-  margin-top: calc(var(--radius-lg) * -1);
+  clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
+  height: var(--diagonal-height);
+  margin-top: calc(var(--diagonal-height) * -1);
   position: relative;
   width: 100%;
 }
 
 .contact-message {
-  background-color: var(--blush-soft);
+  /* background-color: var(--blush-soft); */
   border-radius: 999px;
   color: var(--blush);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -101,7 +102,7 @@
 
 .lgbtq-icon-container {
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.08);
+  /* background-color: rgba(255, 255, 255, 0.08); */
   border-radius: 999px;
   display: flex;
   gap: 8px;

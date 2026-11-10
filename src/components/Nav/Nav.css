@@ -52,10 +52,13 @@
   z-index: 5;
 }
 
+/* leaf_white.png is a white square with a transparent leaf cut out,
+   so the background color shows through as the leaf's color. */
 .hamburger-button,
 .hamburger-button-active {
-  background: center/cover no-repeat url(../../images/leaf_pink.png), var(--sage-600);
-  border: none;
+  background: center/cover no-repeat url(../../images/leaf_white.png);
+  background-color: var(--sage-600);
+  border: 1px solid var(--muted);
   border-radius: 50%;
   box-shadow: var(--shadow-soft);
   height: 48px;
@@ -71,7 +74,7 @@
 }
 
 .hamburger-button-active {
-  background: center/cover no-repeat url(../../images/leaf_white.png), var(--sage-600);
+  background-color: var(--blush);
   transform: rotate(180deg);
   animation: turnRight 0.9s 1 var(--ease);
 }
