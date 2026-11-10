@@ -1,50 +1,79 @@
 .nav-buttons {
-  background-color: #969f99;
+  background-color: transparent;
   border: none;
-  color: #FFF;
-  font-size: 70%;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-  margin: 1px 1px 1px 1px;
-  padding: 10px 30px 10px 30px;
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  margin: 0px;
+  padding: 8px 18px;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
+  transition: color 0.3s var(--ease);
+}
+
+.nav-buttons::after {
+  background-color: currentColor;
+  bottom: 2px;
+  content: '';
+  height: 1px;
+  left: 18px;
+  position: absolute;
+  right: 18px;
+  transform: scaleX(0);
+  transition: transform 0.35s var(--ease);
 }
 
 .nav-buttons:hover {
-  color: #FFF;
+  color: var(--white);
   cursor: pointer;
 }
 
+.nav-buttons:hover::after,
+.nav-buttons:focus-visible::after {
+  transform: scaleX(1);
+}
+
 .full-nav-container {
-  background-color: #969f99;
-  /* box-shadow: 0px 5px 13px 0px #636363; */
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  align-items: center;
+  background-color: rgba(62, 71, 65, 0.55);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   display: flex;
-  height: 35px;
+  gap: 8px;
+  height: 56px;
   justify-content: center;
   position: fixed;
+  top: 0px;
   width: 100%;
   z-index: 5;
 }
 
 .hamburger-button,
 .hamburger-button-active {
-  background: center/100% url(../../images/leaf_pink.png);
-  border: 2px solid #969f99;
-  height: 50px;
+  background: center/cover no-repeat url(../../images/leaf_pink.png), var(--sage-600);
+  border: none;
+  border-radius: 50%;
+  box-shadow: var(--shadow-soft);
+  height: 48px;
+  left: 14px;
   position: fixed;
-  width: 50px;
+  top: 14px;
+  width: 48px;
   z-index: 10;
 }
 
 .hamburger-button-turn-left {
-  animation: turnLeft 0.9s 1;
+  animation: turnLeft 0.9s 1 var(--ease);
 }
 
 .hamburger-button-active {
-  background: center/100% url(../../images/leaf_white.png);
+  background: center/cover no-repeat url(../../images/leaf_white.png), var(--sage-600);
   transform: rotate(180deg);
-  animation: turnRight 0.9s 1;
+  animation: turnRight 0.9s 1 var(--ease);
 }
 
 .hamburger-button:hover {
@@ -55,13 +84,24 @@
   display: none;
 }
 
+.mobile-nav-container .hidden {
+  display: none;
+}
+
 .mobile-menu {
-  background-color: #969f99;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  box-shadow: 3px 3px 13px 0px #636363;
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  backdrop-filter: blur(16px) saturate(140%);
+  background-color: rgba(62, 71, 65, 0.92);
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  box-shadow: 0 20px 40px -16px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
   height: auto;
+  left: 0px;
+  padding: 76px 0px 18px 0px;
   position: fixed;
+  top: 0px;
   width: 100%;
   z-index: 9;
 }
@@ -93,11 +133,11 @@
 @keyframes slide-in {
 
   0% {
-    top: -250px;
+    transform: translateY(-100%);
   }
 
   100% {
-    top: 0px;
+    transform: translateY(0%);
   }
 
 }
@@ -105,29 +145,29 @@
 @keyframes slide-out {
 
   0% {
-    top: 0px;
+    transform: translateY(0%);
   }
 
   100% {
-    top: -250px;
+    transform: translateY(-100%);
   }
 
 }
 
 .animate-slide-in {
-  animation: slide-in 0.9s 1;
+  animation: slide-in 0.8s 1 var(--ease);
 }
 
 .animate-slide-out {
-  animation: slide-out 0.9s 1;
+  animation: slide-out 0.8s 1 var(--ease) forwards;
 }
 
 @media only screen and (max-width: 660px) {
 
   .mobile-nav-container {
     display: block;
-    overflow: hidden;
     position: absolute;
+    z-index: 10;
   }
 
   .full-nav-container {
@@ -135,15 +175,18 @@
   }
 
   .nav-buttons {
-    font-family: 'Muli';
-    font-size: 110%;
-    letter-spacing: 1px;
+    font-size: 15px;
+    letter-spacing: 0.22em;
+    padding: 14px 0px;
     width: 100%;
   }
 
-  .nav-buttons:last-child {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  .nav-buttons::after {
+    display: none;
+  }
+
+  .nav-buttons:hover {
+    background-color: rgba(255, 255, 255, 0.08);
   }
 
 }

@@ -1,81 +1,120 @@
 .contact-outer-container {
   align-items: center;
-  background-color: #969f99;
+  background-color: var(--sage-900);
   display: flex;
   flex-direction: column;
   height: auto;
-  margin-top: -1px;
-  padding-bottom: 20px;
+  padding: 40px 24px 32px 24px;
+  text-align: center;
   width: 100%;
 }
 
+/* Rounded cap that overlaps the menu section */
 .contact-clip-path-top {
-  background-color: #969f99;
-  clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
-  height: 150px;
-  margin-top: -150px;
+  background-color: var(--sage-900);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  height: var(--radius-lg);
+  margin-top: calc(var(--radius-lg) * -1);
+  position: relative;
   width: 100%;
 }
 
 .contact-message {
-  color: #FFF;
-  margin: 80px 0px 50px 0px;
-  padding: 0px 60px 0px 60px;
+  background-color: var(--blush-soft);
+  border-radius: 999px;
+  color: var(--blush);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  margin: 24px 0px 56px 0px;
+  padding: 10px 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-outer-container .about-text {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.contact-outer-container a {
+  text-decoration: none;
+}
+
+.contact-outer-container a .about-text {
+  color: var(--white);
+  transition: color 0.3s var(--ease);
+}
+
+.contact-outer-container a:hover .about-text {
+  color: #f2b8cc;
+}
+
+.contact-outer-container .email-text {
+  text-decoration-line: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  text-underline-offset: 4px;
+}
+
+.contact-outer-container .about-title-text {
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-shadow: none;
+}
+
+.contact-outer-container .about-title-text::after {
+  background-color: var(--blush);
+  content: '';
+  display: block;
+  height: 2px;
+  margin: 12px auto 0px auto;
+  width: 36px;
+}
+
+.contact-hours-title {
+  margin-top: 56px;
+}
+
+.contact-outer-container .contact-hours-note {
+  font-size: 0.9rem;
+  max-width: 240px;
   text-align: center;
 }
 
-.about-title-text {
-  color: #FFF;
-  text-shadow: 1px 1px 1px #000;
+.contact-outer-container .contact-copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  margin-top: 72px;
+  max-width: 1040px;
+  padding-top: 24px;
+  width: 100%;
 }
 
 .lgbtq-icon-container {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
   display: flex;
-  margin-top: 3px;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 6px 16px 6px 8px;
 }
 
 .lgbtq-icon {
-  height: 30px;
-  margin-right: 5px;
+  height: 26px;
 }
-
-/* .resume-button-footer {
-  background-color: #383838;
-  border: 2px solid #a72db9;
-  border-radius: 26px;
-  color: #FFF;
-  font-size: 100%;
-  height: 50px;
-  margin-top: 50px;
-  width: 150px;
-} */
-
-/* .resume-button-footer:hover {
-  background-color: #a72db9;
-  color: #FFF;
-  cursor: pointer;
-} */
 
 .social-icons-container {
   margin-top: 50px;
   text-align: center;
   width: 100%;
-}
-
-@media only screen and (max-width: 1000px) {
-  
-  .contact-clip-path-top {
-    height: 112px;
-    margin-top: -112px;
-  }
-
-}
-
-@media only screen and (max-width: 500px) {
-
-  .contact-clip-path-top {
-    height: 74px;
-    margin-top: -74px;
-  }
-
 }

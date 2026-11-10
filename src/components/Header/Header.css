@@ -1,10 +1,16 @@
 .header-outer-container {
   align-items: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../../images/flowers_02.avif');
+  background:
+    linear-gradient(180deg, rgba(20, 26, 22, 0.45) 0%, rgba(20, 26, 22, 0.15) 45%, rgba(20, 26, 22, 0.5) 100%),
+    url('../../images/flowers_02.avif');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  padding: 130px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 640px;
+  padding: 150px 24px 120px 24px;
   position: relative;
   text-align: center;
   width: 100%;
@@ -12,22 +18,39 @@
 
 .title-name {
   display: inline-block;
-  color: #FFF;
-  font-family: 'Sacramento', cursive;
-  font-size: 500%;
-  font-weight: lighter;
-  margin: 0px 15px 0px 15px;
-  text-shadow: 1px 1px 1px #000;
+  color: var(--white);
+  font-family: var(--font-script);
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0px 15px;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35);
   position: relative;
   padding: 0px;
 }
 
 .title-industry {
-  color: #FFF;
-  font-family: 'Muli';
-  font-size: 150%;
-  text-shadow: 1px 1px 1px #000;
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.45em;
+  margin-top: 28px;
+  padding-left: 0.45em;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
   position: relative;
+}
+
+.title-industry::before,
+.title-industry::after {
+  background-color: rgba(255, 255, 255, 0.6);
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0px 18px;
+  vertical-align: middle;
+  width: 40px;
 }
 
 .social-icon-container {
@@ -44,54 +67,55 @@
 .social-icon:hover,
 .down-arrow:hover {
   cursor: pointer;
-  transform: scale(1.2);
-  transition: transform .5s;
+  transform: scale(1.12);
+  transition: transform 0.4s var(--ease);
 }
 
 .mouse-leave {
   transform: scale(1);
-  transition: transform .5s;
+  transition: transform 0.4s var(--ease);
 }
 
 .down-arrow {
   background: center/100% url(../../images/down_arrow_icon.png);
   border: none;
-  height: 35px;
-  margin-top: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.18), 0 8px 24px rgba(0, 0, 0, 0.3);
+  height: 40px;
+  margin-top: 120px;
   position: relative;
-  width: 35px;
+  width: 40px;
 }
 
 @media only screen and (max-width: 950px) {
 
   .title-name {
-    font-size: 400%;
-  }
-
-}
-
-@media only screen and (max-width: 800px) {
-
-  .header-outer-container {
-    background-position: center;
+    font-size: 5rem;
   }
 
 }
 
 @media only screen and (max-width: 660px) {
 
-
   .header-outer-container {
-    padding: 80px 0px 100px 0px;
+    min-height: 600px;
+    padding: 110px 16px 110px 16px;
   }
 
   .title-industry {
-    font-size: 120%;
-    padding-top: 20px;
+    font-size: 0.8rem;
+    letter-spacing: 0.35em;
+    padding-left: 0.35em;
+  }
+
+  .title-industry::before,
+  .title-industry::after {
+    margin: 0px 12px;
+    width: 24px;
   }
 
   .down-arrow {
-    margin-top: 110px;
+    margin-top: 90px;
   }
 
 }
@@ -99,7 +123,7 @@
 @media only screen and (max-width: 510px) {
 
   .title-name {
-    font-size: 510%;
+    font-size: 4.6rem;
   }
 
 }
@@ -107,7 +131,7 @@
 @media only screen and (max-width: 330px) {
 
   .title-name {
-    font-size: 400%;
+    font-size: 3.6rem;
   }
 
 }

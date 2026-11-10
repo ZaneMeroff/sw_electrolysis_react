@@ -30,10 +30,10 @@ export const Contact = () => {
           <p className='about-text'>LGBTQ+ friendly</p>
         </div>
 
-        <h2 className='about-text about-title-text' id='hours-section' style={{ marginTop: '40px' }}>Hours</h2>
+        <h2 className='about-text about-title-text contact-hours-title' id='hours-section'>Hours</h2>
         <p className='about-text'>Mon-Fri 9am-5pm</p>
-        <p className='about-text' style={{ textAlign: 'center', width: '220px' }}>*weekend & after-hour appointments by request</p>
-        <p className='about-text' style={{ marginTop: '60px', fontSize: '12px' }}>&#xA9; {new Date().getFullYear()} SW Electrolysis & Spa</p>
+        <p className='about-text contact-hours-note'>*weekend & after-hour appointments by request</p>
+        <p className='about-text contact-copyright'>&#xA9; {new Date().getFullYear()} SW Electrolysis & Spa</p>
       </section>
     </div>
   );
